@@ -13,7 +13,7 @@
 
   * 6 types
 
-  * ![image-20211218061247135](https://github.com/yg72/DLHLP-2020/tree/main/screenshot/image-20211218061247135.png)
+  * ![image-20211218061247135](/image-20211218061247135.png)
 
   * Speech --> text  automatic speech recognition :ASR
 
@@ -26,7 +26,7 @@
 
   * text-->text text generation (translation, summarization , chat-bot, **question answering**, syntactic parsing)
 
-  * ![image-20211218063539182](https://github.com/yg72/DLHLP-2020/tree/main/screenshot/image-20211218063539182.png)
+  * ![image-20211218063539182](/image-20211218063539182.png)
 
     Turing NLG
 
