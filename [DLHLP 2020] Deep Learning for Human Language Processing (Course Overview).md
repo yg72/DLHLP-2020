@@ -13,7 +13,7 @@
 
   * 6 types
 
-  * ![image-20211218061247135](./screenshot./image-20211218061247135.png)
+  * ![image-20211218061247135](./screenshot/image-20211218061247135.png)
 
   * Speech --> text  automatic speech recognition :ASR
 
