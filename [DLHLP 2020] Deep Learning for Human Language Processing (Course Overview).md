@@ -11,7 +11,7 @@
 
 * Model
 
-  * 6 types
+  * 6 types small change
 
   * ![image-20211218061247135](./screenshot/image-20211218061247135.png)
 
