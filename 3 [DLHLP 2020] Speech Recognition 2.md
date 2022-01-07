@@ -10,7 +10,7 @@ Listen (Encoder), Attend and Spell (Decoder)  --> Seq 2 seq model
 
 * input: acoustic features
 * Encoder: RNN, 1D CNN * n kernel (filter can have multi layers), self-attention layers
-* ![1](.\screenshot\SP2\1.PNG)
+* ![1](./screenshot/SP2/1.PNG)
 * Output: high level representations
 * Down sampling (trainability): Pyramid RNN, Pooling over time -->RNN
   Time-delay DNN (CNN ~ Dilated CNN), Truncated self-attention
@@ -22,12 +22,12 @@ Listen (Encoder), Attend and Spell (Decoder)  --> Seq 2 seq model
   * additive attention: add + tanh 
 
 * softmax-->c0
-* ![2](.\screenshot\SP2\2.PNG)
+* ![2](./screenshot/SP2/2.PNG)
 
 #### Spell (decode)
 
 * output: distribution over all tokens (word size)
-* ![3](.\screenshot\SP2\3.PNG)
+* ![3](./screenshot/SP2/3.PNG)
 * Beam search: keep B best paths at each step
   * assume there are only 2 tokens (V=2)
 
@@ -36,11 +36,11 @@ Listen (Encoder), Attend and Spell (Decoder)  --> Seq 2 seq model
 * Cross entropy
 * **Teacher Forcing**: use ground truth on 2nd Step
 * how to use Attention --> 3 ways
-* ![4](.\screenshot\SP2\4.PNG)
+* ![4](./screenshot/SP2/4.PNG)
 
 #### Location-aware attention
 
-* ![5](.\screenshot\SP2\5.PNG)
+* ![5](./screenshot/SP2/5.PNG)
 
 #### LAS Works?
 

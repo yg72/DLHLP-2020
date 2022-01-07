@@ -6,12 +6,12 @@
 
 
 * LAS directly computes P(Y|X)
-* ![1](.\screenshot\SP5\1.PNG)
+* ![1](./screenshot/SP5/1.PNG)
 
 * CTC, RNN-T
-*  ![2](.\screenshot\SP5\2.PNG)
+*  ![2](./screenshot/SP5/2.PNG)
 * Enumerate all the possible alignments
-* ![3](.\screenshot\SP5\3.PNG)
+* ![3](./screenshot/SP5/3.PNG)
 * HMM: Trellis Graph
 * CTC
   * If there are the same letters, $\phi$ must be inserted between them
@@ -19,4 +19,4 @@
 * RNN-T
   * The first output and the lase output must be $\phi$
 
-![4](.\screenshot\SP5\4.PNG)
+![4](./screenshot/SP5/4.PNG)

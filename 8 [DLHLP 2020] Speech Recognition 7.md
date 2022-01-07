@@ -28,7 +28,7 @@
     * for each token there is a vector
     * nij: The number of occurrences (出现次数)
 
-  ![3](.\screenshot\SP7\3.PNG)
+  ![3](./screenshot/SP7/3.PNG)
 
 * NN-based LM
 
@@ -36,10 +36,10 @@
 
 ### How to use LM to improve LAS?
 
-![1](.\screenshot\SP7\1.PNG)
+![1](./screenshot/SP7/1.PNG)
 
 * shallow fusion
 * deep fusion: Cannot change the language model arbitrarily, unless you change the domain (不能任意换language model，除非换domain的时候)
-* <img src=".\screenshot\SP7\2.PNG" alt="2" style="zoom:75%;" />
+* <img src="./screenshot/SP7/2.PNG" alt="2" style="zoom:75%;" />
 
 * cold fusion: LAS and LM co-training, cannot change language model

@@ -10,29 +10,29 @@
 
 * issue: 
 
-<img src=".\screenshot\SP3\1.PNG" alt="1" style="zoom: 67%;" />
+<img src="./screenshot/SP3/1.PNG" alt="1" style="zoom: 67%;" />
 
 ### RNN-T: RNN Transducer :) online
 
 * RNA: Recurrent Neural Aligner: replace CTC classifier to LSTM
 * How RNN-T work?
-* ![2](.\screenshot\SP3\2.PNG)
+* ![2](./screenshot/SP3/2.PNG)
 * issue: how to align $\phi$ with words
   * training another RNN: language model: ignore speech, only consider tokens, no $\phi$ in text, **<u>for training algorithm</u>**
-  * <img src=".\screenshot\SP3\3.PNG" alt="3" style="zoom:67%;" />
+  * <img src="./screenshot/SP3/3.PNG" alt="3" style="zoom:67%;" />
 
 ### Neural Transducer
 
 * Input: multi acoustic feature (window) --> attention
-* <img src=".\screenshot\SP3\4.PNG" alt="4" style="zoom:67%;" />
+* <img src="./screenshot/SP3/4.PNG" alt="4" style="zoom:67%;" />
 
 ### Monotonic Chunkwise Attention (MoChA)
 
 * new module ('here?') to decide where the window is.
   *  dynamically shift the input window
 * decode one token no $\phi$ 
-![6](.\screenshot\SP3\6.png)
+![6](./screenshot/SP3/6.png)
 
 ### Summary
 
-![5](.\screenshot\SP3\5.png)
+![5](./screenshot/SP3/5.png)

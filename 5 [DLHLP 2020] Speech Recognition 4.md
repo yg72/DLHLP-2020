@@ -16,17 +16,17 @@ P(Y): language model
   * A token sequence Y corresponds to a sequence of **states S**
 * Transition Probability: Probability from one state to another
 * Emission Probability: too many states --> tied state
-![1](.\screenshot\SP4\1.PNG)
+![1](./screenshot/SP4/1.PNG)
 * Subspace GMM
 
 ### Tandem: How to use Deep Learning?
 * training a **State classifier** and get a new acoustic feature for HMM
-* ![3](.\screenshot\SP4\3.PNG)
+* ![3](./screenshot/SP4/3.PNG)
 
 
 ### DNN-HMM Hybrid
 
-![2](.\screenshot\SP4\2.PNG)
+![2](./screenshot/SP4/2.PNG)
 
 ### How to train a state classifier
 
