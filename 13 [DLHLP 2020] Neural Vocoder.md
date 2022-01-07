@@ -4,6 +4,7 @@
 ### Introduction
 
 * Where did the distortion come from:
+
    $$
    
    STFT{x} = X(t,f) = A_{t,f^{e^{i\theta _{t,f}}}}
