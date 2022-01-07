@@ -4,7 +4,10 @@
 ### Introduction
 
 * Where did the distortion come from:
-  * STFT{x} = X(t,f) = $A_{t,f^{e^{i\theta _{t,f}}}}$, where A is spectrogram, $\theta$ is phase
+   $$
+   STFT{x} = X(t,f) = A_{t,f^{e^{i\theta _{t,f}}}}
+   $$
+   where A is spectrogram, $\theta$ is phase
 * How to transfer Spectrogram to Waveform
   * <img src="./screenshot/Vocoder/1.PNG" alt="1" style="zoom:50%;" />
   * A well-trained vocoder can be used on different speech tasks
