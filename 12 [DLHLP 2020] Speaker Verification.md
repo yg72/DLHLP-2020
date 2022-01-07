@@ -16,9 +16,9 @@ speech --> class
   * Step1: segmentation
   * Step2: clustering
     *  the number of speakers can be known or unknown
-    * 
+  
 
-<img src="C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SV\1.PNG" alt="1" style="zoom:50%;" />
+<img src="./screenshot/SV/1.PNG" alt="1" style="zoom:50%;" />
 
 
 
@@ -36,13 +36,13 @@ speech --> class
 
   * Benchmark corpus: 
 
-  * <img src="C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SV\2.PNG" alt="2" style="zoom:50%;" />
+  * <img src="./screenshot/SV/2.PNG" alt="2" style="zoom:50%;" />
 
   * i-vector: identity vector --non DNN
 
   * #### d-vector: average
 
-    * ![3](C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SV\3.PNG)
+    * ![3](./screenshot/SV/3.PNG)
 
   * #### x-vector: statistic pooling
 
@@ -58,7 +58,7 @@ speech --> class
 ### End-to-end speaker verification
 
 * Can we jointly learn speaker embedding and similarity computation
-* <img src="C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SV\4.PNG" alt="4" style="zoom:50%;" />
+* <img src="./screenshot/SV/4.PNG" alt="4" style="zoom:50%;" />
 
 * Text-independent / Text-dependent (discriminator & similarity)
 

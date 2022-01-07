@@ -1,11 +1,13 @@
 # [DLHLP 2020] Overview of NLP Tasks
 
+Slices: http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/TaskShort%20(v9).pdf
+
 NLP: text2text text2class
 
 ### Category: text2text text2class
 
 * 8 types
-* <img src="C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\NLP\1.PNG" alt="1" style="zoom:50%;" />
+* <img src="./screenshot/NLP/1.PNG" alt="1" style="zoom:50%;" />
 
 
 
@@ -43,7 +45,7 @@ NLP: text2text text2class
     * Policy & State tracker: what has happened in this dialogue
     * Intent classification 
     * Slot filling
-  * ![2](C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\NLP\2.PNG)
+  * ![2](./screenshot/NLP/2.PNG)
 
 * Knowledge graph
   * entity: 东西 relation
@@ -56,12 +58,12 @@ NLP: text2text text2class
     * red: input sentence output: type one type
     * green: input: two sentence output: one class
     * blue: input premise and hypothesis output: one class
-  * <img src="C:\Users\gengyw\AppData\Roaming\Typora\typora-user-images\image-20220106190700470.png" alt="image-20220106190700470" style="zoom:50%;" />
+  * ![3](./screenshot/NLP/3.PNG)
   * Super glue
   * DecaNLP: decathlon
     * 10 NLP tasks
     * solving by the same model
-  * 
+  
 
 
 

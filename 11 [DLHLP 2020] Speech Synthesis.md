@@ -1,5 +1,7 @@
 # [DLHLP 2020] Speech Synthesis (1/2) - Tacotron
 
+### Slices: http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/TTS%20(v4).pdf
+
 Text-to-Speech (TTS) Synthesis
 
 ### Outline
@@ -10,13 +12,13 @@ Text-to-Speech (TTS) Synthesis
   * IBM computer 1961
   * Concatenative Approach: pick up speeches from a large database
   * Parametric Approach (HTS:HMM )
-  * Deep Voice
+  * Deep Voice ![5](./screenshot/SSy/5.PNG)
 
 * Tacotron: End-to-end TTS (Towards end-to-end speech synthesis)
 
   * Tacotron: input character, Output: spectrogram 
 
-  * <img src="C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SSy\1.PNG" alt="1" style="zoom:50%;" />
+  * <img src="./screenshot/SSy/1.PNG" alt="1" style="zoom:50%;" />
 
     * Seq2Seq model + attention
     * **encoder** ~ grapheme-to-phoneme CBHG
@@ -55,7 +57,7 @@ Text-to-Speech (TTS) Synthesis
   * Syntactic information [Guo, et al., INTERSPEECH 19]
   * BERT embedding as input
   * Attention: diagonal
-  * ![2](C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SSy\2.PNG)
+  * ![2](./screenshot/SSy/2.PNG)
     * add regularization in Attention 
     * Monotonic Attention
     * Location-aware attention
@@ -66,9 +68,9 @@ Text-to-Speech (TTS) Synthesis
     * How to train this model?
       duration is non-differentiable 
       during the training phase: using ground truth (alignment from another model)
-    * <img src="C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SSy\3.PNG" alt="3" style="zoom:50%;" />
+    * <img src="./screenshot/SSy/3.PNG" alt="3" style="zoom:50%;" />
   * Dual learning: TTS v.s. ASR
-    * <img src="C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SSy\4.PNG" alt="4" style="zoom:50%;" />
+    * <img src="./screenshot/SSy/4.PNG" alt="4" style="zoom:50%;" />
 
 
 

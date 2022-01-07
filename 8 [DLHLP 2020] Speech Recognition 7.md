@@ -13,6 +13,7 @@
     * P(Y) --> easy to collect
     * If the output is text, it's useful to add language model (P(Y)). (如果输出是文字，加上language model P(Y)往往有用)
   * BERT: 30 
+  * why we need LM? P(Y|X) needs paired data, P(Y) is easy to train.(Lots of data)
 
 * N-gram model (LM)
 
@@ -20,6 +21,9 @@
   * Collect large text data as training data
     * no all kinds of sequence appear in the training data
   * N-gram language model: P(y1,y2,……,yn) = P(y1|BOS)P(y2|y1)...P(yn|yn-1) 拆分概率
+  * Challenge of N-gram
+    * The estimated probability is not accurate, especially when we consider n-gram with large n
+    * Because of data sparsity (many n-grams never appear in training data)
 
 * Continuous LM
 
@@ -30,16 +34,20 @@
 
   ![3](./screenshot/SP7/3.PNG)
 
-* NN-based LM
+* NN-based LM: Learn to predict the next word
 
 * RNN-based LM
+  * If we use 1-of-N encoding to represent the history, history cannot be very long
+  
+    --> So we use RNN-based LM
 
 ### How to use LM to improve LAS?
 
 ![1](./screenshot/SP7/1.PNG)
 
-* shallow fusion
+* shallow fusion: fuse the outout of LAS and the output of LM
 * deep fusion: Cannot change the language model arbitrarily, unless you change the domain (不能任意换language model，除非换domain的时候)
 * <img src="./screenshot/SP7/2.PNG" alt="2" style="zoom:75%;" />
 
 * cold fusion: LAS and LM co-training, cannot change language model
+<img src="./screenshot/SP7/4.PNG" alt="2" style="zoom:75%;" />
