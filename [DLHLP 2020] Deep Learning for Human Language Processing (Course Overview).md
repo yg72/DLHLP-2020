@@ -1,5 +1,5 @@
 # [DLHLP 2020] Deep Learning for Human Language Processing (Course Overview)
-
+### http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/Introduction%20(v9).pdf
 * Natural language processing:
 
   * Natural language: text &  speech
@@ -11,7 +11,7 @@
 
 * Model
 
-  * 6 types small change
+  * 6 types
 
   * ![image-20211218061247135](./screenshot/image-20211218061247135.png)
 
