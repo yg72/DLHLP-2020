@@ -1,5 +1,7 @@
 # [DLHLP 2020] Speaker Verification
 
+### Slices: http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/Speaker%20(v3).pdf
+
 speech --> class
 
 * Related Tasks: emotion recognition
