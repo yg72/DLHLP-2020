@@ -21,7 +21,7 @@ J.R. Pierce -- propose speech recognition -- Bell Lab
   * e.g. unbreakable --> un break able
 * Bytes: the system can be language independent
   * UTF-8 is 256bit --> V is always 256bit
-* <img src=".\screenshot\SP1\1.PNG" alt="1" style="zoom:50%;" />
+* <img src="./screenshot/SP1/1.PNG" alt="1" style="zoom:50%;" />
 * Slot filling: output possible slot
 
 ### Acoustic Feature
@@ -51,4 +51,4 @@ J.R. Pierce -- propose speech recognition -- Bell Lab
 * HMM
   * HMM-hybrid
 
-![2](.\screenshot\SP1\2.PNG)
+![2](./screenshot/SP1/2.PNG)
