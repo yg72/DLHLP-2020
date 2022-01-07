@@ -1,18 +1,22 @@
 # [DLHLP 2020] Speech Recognition 5 - Alignment of HMM, CTC and RNN-T
 
-给一个acoustic feature 产生一个end-to-end feature
+### Slice: http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/ASR2%20(v6).pdf
+
+**With a acoustic feature, the model can generate an end-to-end feature**
+
 
 * LAS directly computes P(Y|X)
-* ![1](C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SP5\1.PNG)
+* ![1](.\screenshot\SP5\1.PNG)
 
 * CTC, RNN-T
-*  ![2](C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SP5\2.PNG)
+*  ![2](.\screenshot\SP5\2.PNG)
 * Enumerate all the possible alignments
-* ![3](C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SP5\3.PNG)
+* ![3](.\screenshot\SP5\3.PNG)
 * HMM: Trellis Graph
 * CTC
-  * 如果有一样的字母中间必须插入$\phi$ 
-* RNN-T
-  * 第一步和最后一步必须是$\phi$
+  * If there are the same letters, $\phi$ must be inserted between them
 
-![4](C:\Users\gengyw\Documents\GitHub\DLHLP-2020\screenshot\SP5\4.PNG)
+* RNN-T
+  * The first output and the lase output must be $\phi$
+
+![4](.\screenshot\SP5\4.PNG)

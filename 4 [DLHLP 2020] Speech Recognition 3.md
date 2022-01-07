@@ -28,8 +28,10 @@
 
 ### Monotonic Chunkwise Attention (MoChA)
 
-* new flag to dynamically shift the input window
+* new module ('here?') to decide where the window is.
+  *  dynamically shift the input window
 * decode one token no $\phi$ 
+![6](.\screenshot\SP3\6.png)
 
 ### Summary
 
