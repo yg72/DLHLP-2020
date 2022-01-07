@@ -8,7 +8,7 @@
   * token sequence: Y = y1,y2,......,yn
   * P(y1,y2......yn)
   * HMM:   $Y^*=arg maxP(X|Y)P(Y)$
-  * LAS: seems no need for language model: $Y^*=argmaxP(Y|X)$ **(*P(Y))**
+  * LAS: seems no need for language model: $Y^*=argmaxP(Y|X)$ (*P(Y))
     * where P(Y|X) --> need paired data
     * P(Y) --> easy to collect
     * If the output is text, it's useful to add language model (P(Y)). (如果输出是文字，加上language model P(Y)往往有用)
